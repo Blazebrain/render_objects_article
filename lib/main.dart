@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatelessWidget {
-  /// Creates a [HomePage].
   const HomePage({
     Key? key,
   }) : super(key: key);
@@ -29,7 +28,6 @@ class HomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
-            mainAxisSize: MainAxisSize.max,
             children: <Widget>[
               const Text('This is testing the Gap widget'),
               const Gap(30),
